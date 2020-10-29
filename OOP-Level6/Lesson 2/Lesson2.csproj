@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{405EE9F5-E26F-46E1-A102-735E8F23C788}</ProjectGuid>
+    <ProjectGuid>{47913544-94EF-4628-A142-65506149DD94}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Lesson_1</RootNamespace>
-    <AssemblyName>Lesson 1</AssemblyName>
+    <RootNamespace>Lesson2</RootNamespace>
+    <AssemblyName>Lesson2</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,8 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Person.cs" />
-    <Compile Include="Program.cs" />
+    <Compile Include="Circle2.cs" />
+    <Compile Include="Program2.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

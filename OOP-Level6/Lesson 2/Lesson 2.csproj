@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{405EE9F5-E26F-46E1-A102-735E8F23C788}</ProjectGuid>
+    <ProjectGuid>{864F3D78-5CB2-4D71-A8EE-8EE7533E7B7B}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Lesson_1</RootNamespace>
-    <AssemblyName>Lesson 1</AssemblyName>
+    <RootNamespace>Lesson_2</RootNamespace>
+    <AssemblyName>Lesson 2</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,12 +43,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Person.cs" />
-    <Compile Include="Program.cs" />
+    <Compile Include="Circle2.cs" />
+    <Compile Include="Program2.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="Lesson2.csproj" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
